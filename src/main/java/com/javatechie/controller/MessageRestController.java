@@ -11,4 +11,9 @@ public class MessageRestController {
 	public String showMessage() {
 		return "WELCOME TO JAVATECHIE, NOIDA";
 	}
+	
+	@GetMapping("/docker")
+	public String integratejenkins() {
+		return "We will integrate docker with jenkins";
+	}
 }
